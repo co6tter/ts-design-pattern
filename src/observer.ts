@@ -1,6 +1,6 @@
 class Observable {
   // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-  observers: any[];
+  private observers: any[];
 
   constructor() {
     this.observers = [];
